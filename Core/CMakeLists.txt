@@ -6,7 +6,7 @@ set(SOURCES
 vendor/stb/stb_image.h
 vendor/stb/stb_image.cpp
 Source/Core/Application.h
-# Source/Core/Application.cpp
+Source/Core/Application.cpp
 # Source/Core/Window.h
 # Source/Core/Window.cpp
 # Source/Core/Layer.h
