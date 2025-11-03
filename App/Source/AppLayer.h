@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cstdint>
 #include <stdint.h>
 
 #include "Core/Layer.h"
@@ -14,4 +15,6 @@ public:
 
 private:
     uint32_t m_Shader = 0;
+    uint32_t m_VertexArray = 0;
+    uint32_t m_VertexBuffer = 0;
 };

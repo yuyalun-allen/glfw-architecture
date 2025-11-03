@@ -27,6 +27,11 @@ namespace Core {
             m_LayerStack.push_back(std::make_unique<TLayer>());
         }
 
+        glm::vec2 GetFrameBufferSize() const;
+
+        static Application& Get();
+        static float GetTime();
+
     private:
         ApplicationSpecification m_Specification;
         std::shared_ptr<Window> m_Window;
